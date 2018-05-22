@@ -5,6 +5,8 @@ application up and running.
 
 Things you may want to cover:
 
+* Follow [this tutorial](https://blog.heroku.com/a-rock-solid-modern-web-stack)
+
 * Ruby version: 2.2.5
 
 * System dependencies
