@@ -1,10 +1,10 @@
 # README
 
-#Rails + React CMS
+# Rails + React CMS
 
 This was intended to be a starter stack for a simple Rails/React CMS that utilizes ActiveAdmin as an admin portal.  It should have lightweight data that is only used to populate the main content areas of the site.
 
-##Architecture
+## Architecture
 The initial repository is based on [this tutorial](https://blog.heroku.com/a-rock-solid-modern-web-stack).  It can be used as a marketing site that displays content, or a full-stack application.  It has the power and ease of a Rails API with the speed and customization of React.  
 
 * Ruby version: 2.2.5
@@ -19,7 +19,7 @@ The initial repository is based on [this tutorial](https://blog.heroku.com/a-roc
   * SPA Routing with [React Router](https://github.com/ReactTraining/react-router)
 
 
-##Develop
+## Develop
 
 To run the application locally:
 
@@ -31,7 +31,7 @@ To run the application locally:
 6. `bin/rake start` starts Rails and React
 
 
-##Deploy
+## Deploy
 Simple deployment with Heroku
 
 1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) if necessary
