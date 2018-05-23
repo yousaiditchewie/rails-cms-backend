@@ -1,5 +1,3 @@
-# README
-
 # Rails + React CMS
 
 This was intended to be a starter stack for a simple Rails/React CMS that utilizes ActiveAdmin as an admin portal.  It should have lightweight data that is only used to populate the main content areas of the site.
