@@ -22,11 +22,11 @@ The initial repository is based on [this tutorial](https://blog.heroku.com/a-roc
 To run the application locally:
 
 1. Clone or Fork this repository
-2. `cd	` into the root directory
-3. `bundle install`
-4. Install Node modules for React with `yarn --cwd client install`
-5. `bin/rake db:reset` to seed the database
-6. `bin/rake start` starts Rails and React
+2. `cd` into the root directory
+3. Instal Ruby Gems with `bundle install`
+4. Install Node modules for React with `yarn run update`
+5. `rake db:reset` to seed the database
+6. `yarn start` starts Rails and React
 
 
 ## Deploy
