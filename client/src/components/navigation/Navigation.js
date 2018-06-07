@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import "./Navigation.css";
 
 export default class Navigation extends Component {
@@ -7,6 +7,9 @@ export default class Navigation extends Component {
       <nav className="Navigation">
         <a className="Navigation-link" href="/">
           BB<small>AR</small>
+        </a>
+        <a className="Navigation-link" href="/menu">
+          Menu
         </a>
         <a className="Navigation-link" href="/our-story">
           Our&nbsp;Story

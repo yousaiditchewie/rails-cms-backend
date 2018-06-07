@@ -10,8 +10,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: $white;
   @include serif;
   font-size: 1rem;
+  color: $black;
 }
 
 #root {

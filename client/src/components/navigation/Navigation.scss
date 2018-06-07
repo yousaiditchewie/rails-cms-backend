@@ -1,6 +1,50 @@
+@import "../../../assets/scss/colors";
+@import "../../../assets/scss/variables";
+
 .Navigation {
   display: flex;
+  flex: 1 1 100%;
   align-items: center;
   justify-content: flex-end;
-  padding: 1rem;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid $ghost;
+
+  &-link {
+    position: relative;
+    padding: 0.5rem 0.25rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: $black;
+    transition: color 0.35s ease-in-out;
+
+    &:first-child {
+      display: block;
+      margin-right: auto;
+      font-size: 1.75rem;
+      font-weight: bold;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      display: block;
+      left: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      max-height: 0;
+      background-color: $jet-black;
+      transition: max-height 0.2s ease;
+    }
+
+    @media (any-hover: hover) {
+      &:hover {
+        color: $black;
+
+        &:before {
+          max-height: 0.18rem;
+        }
+      }
+    }
+  }
 }
