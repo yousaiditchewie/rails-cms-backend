@@ -1,13 +1,134 @@
 @import "../../../assets/scss/colors";
 @import "../../../assets/scss/variables";
+$desktop: 768px;
+$border-bottom: 1px solid $ghost;
 
+* {
+  box-sizing: border-box;
+}
 .Navigation {
-  display: flex;
+  // Mobile styles
+  &--mobile {
+    display: block;
+    text-align: center;
+
+    @media only screen and (min-width: $desktop) {
+      display: none;
+    }
+
+    &-logo {
+      text-decoration: none;
+      color: $black;
+      font-size: 1.75rem;
+      font-weight: bold;
+    }
+
+    &-list {
+      position: fixed;
+      overflow: hidden;
+      list-style: none;
+      height: 100%;
+      width: 100%;
+      max-height: 0;
+      padding: 0;
+      margin: 0;
+      background: $white;
+      border-bottom: $border-bottom;
+      transition: max-height 0.3s ease-out;
+
+      .nav-is-open & {
+        max-height: 10rem;
+      }
+    }
+
+    &-link {
+      display: inline-block;
+      padding: 0.5rem 0;
+      margin: 1rem auto;
+      color: $black;
+      text-decoration: none;
+
+      li:first-child & {
+        padding-top: 1rem;
+      }
+
+      li:last-child & {
+        padding-bottom: 1.5rem;
+      }
+
+      @media (any-hover: hover) {
+        &:hover {
+          color: $black;
+        }
+      }
+    }
+  }
+
+  &-menu-toggle {
+    position: absolute;
+    height: 1.5rem;
+    width: 2rem;
+    top: 1.25rem;
+    right: 1.25rem;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      border-bottom: 2px solid $black;
+      transform: rotate(0);
+      transform-origin: top left;
+      transition: transform 0.25s ease;
+
+      .nav-is-open & {
+        transform: rotate(45deg);
+      }
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 1.5rem;
+      right: 0;
+      height: 0;
+      width: 100%;
+      border-bottom: 2px solid $black;
+      transform: rotate(0);
+      transform-origin: bottom left;
+      transition: transform 0.25s ease;
+
+      .nav-is-open & {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &--icon {
+      padding-top: 0.75rem;
+      margin: 0 auto;
+      max-width: 2rem;
+      border-bottom: 2px solid $black;
+      transition: max-width 0.2s ease;
+
+      .nav-is-open & {
+        max-width: 0;
+      }
+    }
+  }
+
+  // Desktop styles
+  display: none;
   flex: 1 1 100%;
   align-items: center;
   justify-content: flex-end;
   padding: 1rem 2rem;
-  border-bottom: 1px solid $ghost;
+  border-bottom: $border-bottom;
+
+  @media only screen and (min-width: $desktop) {
+    display: flex;
+  }
 
   &-link {
     position: relative;
@@ -19,13 +140,17 @@
 
     &:first-child {
       display: block;
-      margin-right: auto;
+      margin: 1rem 0;
       font-size: 1.75rem;
       font-weight: bold;
+
+      @media only screen and (min-width: $desktop) {
+        margin: 0 auto 0 1rem;
+      }
     }
 
     &:before {
-      content: "";
+      content: none;
       position: absolute;
       display: block;
       left: 0;
@@ -35,6 +160,10 @@
       max-height: 0;
       background-color: $jet-black;
       transition: max-height 0.2s ease;
+
+      @media only screen and (min-width: $desktop) {
+        content: "";
+      }
     }
 
     @media (any-hover: hover) {
