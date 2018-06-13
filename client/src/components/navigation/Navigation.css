@@ -5,6 +5,10 @@
   display: inline-block;
   width: 100%;
   text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .Navigation {
+      text-align: left;
+      padding: 0 1rem; } }
   .Navigation-logo {
     display: inline-block;
     padding: 1.25rem 0;
@@ -50,6 +54,9 @@
       transition: max-width 0.2s ease; }
       .nav-is-open .Navigation-menu-toggle--icon {
         max-width: 0; }
+    @media only screen and (min-width: 768px) {
+      .Navigation-menu-toggle {
+        display: none; } }
   .Navigation-list {
     position: fixed;
     overflow: hidden;

@@ -13,10 +13,19 @@ $border-bottom: 1px solid $ghost;
   width: 100%;
   text-align: center;
 
+  @media only screen and (min-width: $desktop) {
+    text-align: left;
+    padding: 0 1rem;
+  }
+
   &-logo {
     display: inline-block;
     padding: 1.25rem 0;
     font-size: 1.75rem;
+
+    // @media only screen and (min-width: $desktop) {
+    //   margin-left: 1rem;
+    // }
   }
 
   &-menu-toggle {
@@ -71,6 +80,10 @@ $border-bottom: 1px solid $ghost;
       .nav-is-open & {
         max-width: 0;
       }
+    }
+
+    @media only screen and (min-width: $desktop) {
+      display: none;
     }
   }
 
