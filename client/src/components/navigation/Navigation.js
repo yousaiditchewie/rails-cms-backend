@@ -27,23 +27,17 @@ export default class Navigation extends Component {
           <span hidden>Open Menu</span>
           <div className="Navigation-menu-toggle--icon" />
         </div>
-        <ul className="Navigation-list">
-          <li>
-            <a href="/menu" className="Navigation-link">
-              Menu
-            </a>
-          </li>
-          <li>
-            <a href="/our-story" className="Navigation-link">
-              Our&nbsp;Story
-            </a>
-          </li>
-          <li>
-            <a href="/jobs" className="Navigation-link">
-              Jobs
-            </a>
-          </li>
-        </ul>
+        <div className="Navigation-list">
+          <a href="/menu" className="Navigation-link">
+            Menu
+          </a>
+          <a href="/our-story" className="Navigation-link">
+            Our&nbsp;Story
+          </a>
+          <a href="/jobs" className="Navigation-link">
+            Jobs
+          </a>
+        </div>
       </nav>
     );
   }

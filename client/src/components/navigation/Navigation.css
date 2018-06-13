@@ -4,15 +4,24 @@
 .Navigation {
   display: inline-block;
   width: 100%;
-  text-align: center; }
+  height: 100%;
+  background: #fff;
+  text-align: center;
+  border-bottom: 1px solid #eaeaea; }
   @media only screen and (min-width: 768px) {
     .Navigation {
+      display: flex;
+      flex: 1 1 100%;
+      justify-content: space-between;
       text-align: left;
-      padding: 0 1rem; } }
+      padding: 0 2rem; } }
   .Navigation-logo {
     display: inline-block;
     padding: 1.25rem 0;
     font-size: 1.75rem; }
+    @media only screen and (min-width: 768px) {
+      .Navigation-logo {
+        padding: 1.5rem 0; } }
   .Navigation-menu-toggle {
     position: absolute;
     height: 1.5rem;
@@ -60,7 +69,6 @@
   .Navigation-list {
     position: fixed;
     overflow: hidden;
-    list-style: none;
     height: 100%;
     width: 100%;
     max-height: 0;
@@ -70,13 +78,20 @@
     border-bottom: 1px solid #eaeaea;
     transition: max-height 0.3s ease-out; }
     .nav-is-open .Navigation-list {
-      max-height: 14rem; }
+      max-height: 12rem; }
+    @media only screen and (min-width: 768px) {
+      .Navigation-list {
+        position: relative;
+        display: inline-block;
+        max-height: none;
+        width: auto;
+        overflow: visible;
+        border: none; } }
   .Navigation-link {
-    display: inline-block;
+    display: block;
     padding: 0.5rem 0;
-    margin: 1rem auto;
-    color: #000;
-    text-decoration: none; }
-  @media (any-hover: hover) {
-    .Navigation:hover {
-      color: #000; } }
+    margin: 1rem auto; }
+    @media only screen and (min-width: 768px) {
+      .Navigation-link {
+        display: inline-block;
+        margin-left: 2rem; } }
