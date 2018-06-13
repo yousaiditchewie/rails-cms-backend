@@ -1,7 +1,4 @@
-@import "../../../assets/scss/colors";
-@import "../../../assets/scss/variables";
-$desktop: 768px;
-$border-bottom: 1px solid $ghost;
+@import "../../../assets/scss/style";
 
 * {
   box-sizing: border-box;
@@ -125,8 +122,27 @@ $border-bottom: 1px solid $ghost;
     margin: 1rem auto;
 
     @media only screen and (min-width: $desktop) {
+      position: relative;
       display: inline-block;
       margin-left: 2rem;
+
+      &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        bottom: 0;
+        background: $bbar-yellow;
+        height: 100%;
+        width: 100%;
+        max-height: 0;
+        transition: max-height 0.15s ease-out;
+      }
+
+      @media (any-hover: hover) {
+        &:hover:after {
+          max-height: 0.2rem;
+        }
+      }
     }
   }
 }

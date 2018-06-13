@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
 * {
   box-sizing: border-box; }
 
@@ -67,7 +68,7 @@
       .Navigation-menu-toggle {
         display: none; } }
   .Navigation-list {
-    position: fixed;
+    position: absolute;
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -93,5 +94,19 @@
     margin: 1rem auto; }
     @media only screen and (min-width: 768px) {
       .Navigation-link {
+        position: relative;
         display: inline-block;
-        margin-left: 2rem; } }
+        margin-left: 2rem; }
+        .Navigation-link:after {
+          content: "";
+          position: absolute;
+          display: block;
+          bottom: 0;
+          background: #f5d015;
+          height: 100%;
+          width: 100%;
+          max-height: 0;
+          transition: max-height 0.15s ease-out; } }
+  @media only screen and (min-width: 768px) and (any-hover: hover) {
+    .Navigation-link:hover:after {
+      max-height: 0.2rem; } }
