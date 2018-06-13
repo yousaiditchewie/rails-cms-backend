@@ -15,7 +15,12 @@ body {
   font-size: 1rem;
   color: $black;
 }
-
+a {
+  color: $black;
+  &:hover {
+    color: $black;
+  }
+}
 #root {
   padding: 0;
 }

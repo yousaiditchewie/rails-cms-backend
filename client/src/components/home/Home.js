@@ -3,6 +3,10 @@ import "./Home.css";
 
 export default class Home extends Component {
   render() {
-    return <div className="Home">Hey, I'm Home!</div>;
+    return (
+      <section>
+        <div className="Home">Hey, I'm Home!</div>
+      </section>
+    );
   }
 }
