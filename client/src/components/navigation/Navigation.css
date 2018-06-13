@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box; }
+
+.Navigation {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+  .Navigation-logo {
+    display: inline-block;
+    padding: 1.25rem 0;
+    font-size: 1.75rem; }
+  .Navigation-menu-toggle {
+    position: absolute;
+    height: 1.5rem;
+    width: 2rem;
+    top: 1.25rem;
+    right: 1.25rem;
+    cursor: pointer; }
+    .Navigation-menu-toggle:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      border-bottom: 2px solid #000;
+      transform: rotate(0);
+      transform-origin: top left;
+      transition: transform 0.25s ease; }
+      .nav-is-open .Navigation-menu-toggle:before {
+        transform: rotate(39.5deg); }
+    .Navigation-menu-toggle:after {
+      content: "";
+      position: absolute;
+      top: 1.25rem;
+      right: 0;
+      height: 0;
+      width: 100%;
+      border-bottom: 2px solid #000;
+      transform: rotate(0);
+      transform-origin: bottom left;
+      transition: transform 0.25s ease; }
+      .nav-is-open .Navigation-menu-toggle:after {
+        transform: rotate(-39.5deg); }
+    .Navigation-menu-toggle--icon {
+      padding-top: 0.65rem;
+      margin: 0 auto;
+      max-width: 2rem;
+      border-bottom: 2px solid #000;
+      transition: max-width 0.2s ease; }
+      .nav-is-open .Navigation-menu-toggle--icon {
+        max-width: 0; }
+  .Navigation-list {
+    position: fixed;
+    overflow: hidden;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    max-height: 0;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    transition: max-height 0.3s ease-out; }
+    .nav-is-open .Navigation-list {
+      max-height: 14rem; }
+  .Navigation-link {
+    display: inline-block;
+    padding: 0.5rem 0;
+    margin: 1rem auto;
+    color: #000;
+    text-decoration: none; }
+  @media (any-hover: hover) {
+    .Navigation:hover {
+      color: #000; } }
