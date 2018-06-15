@@ -5,7 +5,8 @@
   height: 100%;
   background: #fff;
   text-align: center;
-  border-bottom: 1px solid #eaeaea; }
+  border-bottom: 1px solid #fff;
+  z-index: 9999; }
   @media only screen and (min-width: 769px) {
     .Navigation {
       display: flex;
@@ -73,8 +74,9 @@
     padding: 0;
     margin: 0;
     background: #fff;
-    border-bottom: 1px solid #eaeaea;
-    transition: max-height 0.3s ease-out; }
+    border-bottom: 1px solid #fff;
+    transition: max-height 0.25s ease-out;
+    z-index: 9999; }
     .nav-is-open .Navigation-list {
       max-height: 12rem; }
     @media only screen and (min-width: 769px) {

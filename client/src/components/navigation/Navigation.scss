@@ -8,6 +8,7 @@
   background: $white;
   text-align: center;
   border-bottom: $border-bottom;
+  z-index: 9999;
 
   @media only screen and (min-width: $desktop) {
     display: flex;
@@ -96,7 +97,8 @@
     margin: 0;
     background: $white;
     border-bottom: $border-bottom;
-    transition: max-height 0.3s ease-out;
+    transition: max-height 0.25s ease-out;
+    z-index: 9999;
 
     .nav-is-open & {
       max-height: 12rem;
