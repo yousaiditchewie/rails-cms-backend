@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
-* {
-  box-sizing: border-box; }
-
 .Navigation {
   display: inline-block;
   width: 100%;
@@ -9,7 +6,7 @@
   background: #fff;
   text-align: center;
   border-bottom: 1px solid #eaeaea; }
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 769px) {
     .Navigation {
       display: flex;
       flex: 1 1 100%;
@@ -20,7 +17,7 @@
     display: inline-block;
     padding: 1.25rem 0;
     font-size: 1.75rem; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       .Navigation-logo {
         padding: 1.5rem 0; } }
   .Navigation-menu-toggle {
@@ -64,7 +61,7 @@
       transition: max-width 0.2s ease; }
       .nav-is-open .Navigation-menu-toggle--icon {
         max-width: 0; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       .Navigation-menu-toggle {
         display: none; } }
   .Navigation-list {
@@ -80,7 +77,7 @@
     transition: max-height 0.3s ease-out; }
     .nav-is-open .Navigation-list {
       max-height: 12rem; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       .Navigation-list {
         position: relative;
         display: inline-block;
@@ -92,7 +89,7 @@
     display: block;
     padding: 0.5rem 0;
     margin: 1rem auto; }
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 769px) {
       .Navigation-link {
         position: relative;
         display: inline-block;
@@ -107,6 +104,6 @@
           width: 100%;
           max-height: 0;
           transition: max-height 0.15s ease-out; } }
-  @media only screen and (min-width: 768px) and (any-hover: hover) {
+  @media only screen and (min-width: 769px) and (any-hover: hover) {
     .Navigation-link:hover:after {
       max-height: 0.2rem; } }
