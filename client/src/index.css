@@ -10,10 +10,15 @@ body {
   font-size: 1rem;
   color: #000; }
 
+* {
+  box-sizing: border-box; }
+
 a {
   color: #000; }
   a:hover {
     color: #000; }
 
 #root {
+  max-width: 100%;
+  overflow: hidden;
   padding: 0; }
