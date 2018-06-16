@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navigation.css";
+import logo from "./assets/biscuit-bar-logo.png";
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -20,9 +21,15 @@ export default class Navigation extends Component {
           (this.state.navIsOpen ? "nav-is-open" : "nav-is-closed")
         }
       >
-        <a className="Navigation-logo" href="/">
-          BB<small>AR</small>
-        </a>
+        <div className="Navigation-logo--wrapper">
+          <a className="Navigation-logo" href="/">
+            <img
+              src={logo}
+              alt="The Biscuit Bar"
+              className="Navigation-logo--img"
+            />
+          </a>
+        </div>
         <div className="Navigation-menu-toggle" onClick={this.handleClick}>
           <span hidden>Open Menu</span>
           <div className="Navigation-menu-toggle--icon" />
