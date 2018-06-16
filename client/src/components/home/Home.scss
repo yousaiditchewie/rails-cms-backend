@@ -1,59 +1,55 @@
 @import "../../../assets/scss/style";
 
-@mixin height() {
-  height: calc(100vh - 64px);
-
-  @media only screen and (min-width: $desktop) {
-    height: calc(100vh - 72px);
-  }
-}
 .Hero {
-  @include height;
-
   position: relative;
-  background-image: url(./assets/overhead.jpg);
-  background-image: webkit-image-set(
-    url(./assets/overhead.jpg) 1x,
-    url(./assets/overhead@2x.jpg) 2x
-  );
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
   text-align: center;
   z-index: 0;
 
-  &-overlay {
-    position: absolute;
-    @include height;
+  &-image {
     width: 100%;
+    min-height: 15rem;
     background: $white;
-    opacity: 0.5;
-    z-index: 1;
-  }
-  &-flexWrapper {
-    position: relative;
-    display: flex;
-    flex: 1 1 100%;
-    flex-direction: column;
-    justify-content: center;
-    @include height;
-    width: 100%;
-    z-index: 2;
-  }
-  &-logo {
-    margin: 0;
+    background-image: url(./assets/overhead.jpg);
+    background-image: webkit-image-set(
+      url(./assets/overhead.jpg) 1x,
+      url(./assets/overhead@2x.jpg) 2x
+    );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-    &--image {
-      max-width: 100%;
+    @media only screen and (min-width: $desktop) {
+      min-height: 38rem;
     }
+  }
+
+  &-container {
+    padding: 3rem 0;
   }
 
   &-slogan {
     @include serif;
+    font-size: 1.75rem;
     font-style: bold;
+
+    @media only screen and (min-width: $desktop) {
+      font-size: 2.25rem;
+    }
   }
+
   &-address {
+    padding: 1rem 0;
     @include sans-serif;
     font-style: normal;
+  }
+
+  &-phone {
+    transition: color 0.25s ease-out;
+    @media (any-hover: hover) {
+      &:hover {
+        color: $bbar-yellow;
+      }
+    }
   }
 }
