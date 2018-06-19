@@ -10,7 +10,10 @@ export default class Home extends Component {
         <div className="Hero-container">
           <h2 className="Hero-slogan">Biscuits.&nbsp;Tots.&nbsp;Taps.</h2>
           <address className="Hero-address">
-            5880 TX-121, Suite 102B<br />Plano, TX 75024<br />
+            <a href="https://goo.gl/maps/Yxg4QjgPbDJ2" target="_blank">
+              5880 TX-121, Suite 102B<br />Plano, TX 75024
+            </a>
+            <br />
             <a className="Hero-phone" href="tel:4692382227">
               469.238.2227
             </a>
