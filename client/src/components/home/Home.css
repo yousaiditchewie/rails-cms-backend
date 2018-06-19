@@ -1,46 +1,40 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
 .Hero {
-  height: calc(100vh - 64px);
   position: relative;
-  background-image: url(./assets/overhead.jpg);
-  background-image: webkit-image-set(url(./assets/overhead.jpg) 1x, url(./assets/overhead@2x.jpg) 2x);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   text-align: center;
-  z-index: 0; }
-  @media only screen and (min-width: 769px) {
-    .Hero {
-      height: calc(100vh - 72px); } }
-  .Hero-overlay {
-    position: absolute;
-    height: calc(100vh - 64px);
+  z-index: 0;
+  background: #fff;
+  color: #000; }
+  .Hero-image {
     width: 100%;
+    min-height: 15rem;
     background: #fff;
-    opacity: 0.5;
-    z-index: 1; }
+    background-image: url(./assets/overhead.jpg);
+    background-image: webkit-image-set(url(./assets/overhead.jpg) 1x, url(./assets/overhead@2x.jpg) 2x);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
     @media only screen and (min-width: 769px) {
-      .Hero-overlay {
-        height: calc(100vh - 72px); } }
-  .Hero-flexWrapper {
-    position: relative;
-    display: flex;
-    flex: 1 1 100%;
-    flex-direction: column;
-    justify-content: center;
-    height: calc(100vh - 64px);
-    width: 100%;
-    z-index: 2; }
-    @media only screen and (min-width: 769px) {
-      .Hero-flexWrapper {
-        height: calc(100vh - 72px); } }
-  .Hero-logo {
-    margin: 0; }
-    .Hero-logo--image {
-      max-width: 100%; }
+      .Hero-image {
+        min-height: 38rem; } }
+  .Hero-container {
+    padding: 3rem 0; }
   .Hero-slogan {
     font-family: 'Libre Baskerville', serif;
-    font-style: bold; }
+    font-size: 1.75rem;
+    font-weight: normal; }
+    @media only screen and (min-width: 769px) {
+      .Hero-slogan {
+        font-size: 2.25rem; } }
   .Hero-address {
+    padding: 1rem 0;
     font-family: 'Lato', sans-serif;
     font-style: normal; }
+    @media (any-hover: hover) {
+      .Hero-address a:hover {
+        color: #f5d015; } }
+  .Hero-phone {
+    transition: color 0.25s ease-out; }
+    @media (any-hover: hover) {
+      .Hero-phone:hover {
+        color: #f5d015; } }
