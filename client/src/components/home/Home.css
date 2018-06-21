@@ -1,4 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display");
+.serif {
+  font-family: "Playfair Display", serif; }
+
+.sans-serif {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300; }
+
 .Hero {
   position: relative;
   text-align: center;
@@ -20,7 +27,7 @@
   .Hero-container {
     padding: 3rem 0; }
   .Hero-slogan {
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Playfair Display", serif;
     font-size: 1.75rem;
     font-weight: normal; }
     @media only screen and (min-width: 769px) {
@@ -28,13 +35,12 @@
         font-size: 2.25rem; } }
   .Hero-address {
     padding: 1rem 0;
-    font-family: 'Lato', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
     font-style: normal; }
     @media (any-hover: hover) {
       .Hero-address a:hover {
         color: #f5d015; } }
-  .Hero-phone {
-    transition: color 0.25s ease-out; }
-    @media (any-hover: hover) {
-      .Hero-phone:hover {
-        color: #f5d015; } }
+  @media (any-hover: hover) {
+    .Hero-phone:hover {
+      color: #f5d015; } }
