@@ -54,7 +54,6 @@
   }
 
   &-phone {
-    transition: color 0.25s ease-out;
     @media (any-hover: hover) {
       &:hover {
         color: $bbar-yellow;

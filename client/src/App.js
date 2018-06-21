@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
+import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import Menu from "./components/menu/Menu";
 import OurStory from "./components/our-story/OurStory";
@@ -21,6 +22,7 @@ class App extends Component {
             <Route component={NotFound} />
           </Switch>
         </Router>
+        <Footer />
       </Fragment>
     );
   }

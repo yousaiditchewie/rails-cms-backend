@@ -1,0 +1,59 @@
+@import "../../../assets/scss/style";
+
+.Footer {
+  padding: 2rem 0;
+  background-color: $bbar-yellow;
+  // color: $jet-black;
+
+  &-wrapper {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+
+    @media only screen and (min-width: $desktop) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+      text-align: left;
+    }
+  }
+
+  &-connect {
+    font-size: 1.25rem;
+  }
+  &-link {
+    display: inline-block;
+    margin: 1rem;
+
+    @media only screen and (min-width: $desktop) {
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+  }
+  &-facebook,
+  &-instagram {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    transition: background 0.25s ease-out;
+
+    @media (any-hover: hover) {
+      &:hover {
+        background-color: $silver;
+      }
+    }
+  }
+
+  &-facebook {
+    background-color: $white;
+  }
+
+  &-instagram {
+    padding: 0.25rem;
+    background-color: $instagram;
+  }
+}
