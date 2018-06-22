@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import GoogleMap from "../google-map/GoogleMap";
 import "./Home.css";
-import logo from "./assets/logo.png";
 
 export default class Home extends Component {
   render() {
@@ -25,6 +25,7 @@ export default class Home extends Component {
             Thurs - Sat 8am-Midnight
           </p>
         </div>
+        <GoogleMap />
       </header>
     );
   }
