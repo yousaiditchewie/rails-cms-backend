@@ -4,6 +4,11 @@ import facebook from "./assets/facebook.svg";
 import instagram from "./assets/instagram.svg";
 
 export default class Footer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { date: new Date() };
+  }
+
   render() {
     return (
       <footer className="Footer">
@@ -38,7 +43,7 @@ export default class Footer extends Component {
           </div>
           <div className="Footer-right">
             <span className="Footer-copyright serif">
-              &copy;2018 The Biscuit Bar LLC
+              &copy;{this.state.date.getFullYear()} The Biscuit Bar LLC
             </span>
           </div>
         </div>
