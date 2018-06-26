@@ -4,18 +4,21 @@ import "./GoogleMap.css";
 import bbar from "./assets/bbar.png";
 
 const PinStyle = {
-  width: "4rem",
-  height: "4rem",
+  width: "3.25rem",
+  height: "3.25rem",
   border: ".25rem solid #f5d015",
-  padding: ".5rem"
+  backgroundColor: "#fff",
+  padding: ".25rem"
 };
 
 const CoordinatesComponent = () => (
-  <img src={bbar} alt="The Biscuit Bar" style={PinStyle} />
+  <a href="https://goo.gl/maps/Yxg4QjgPbDJ2" target="_blank">
+    <img src={bbar} alt="The Biscuit Bar" style={PinStyle} />
+  </a>
 );
 
 export default class GoogleMap extends Component {
-  static defaultProps = { center: { lat: 33.090325, lng: -96.8216 }, zoom: 17 };
+  static defaultProps = { center: { lat: 33.090325, lng: -96.8216 }, zoom: 15 };
   render() {
     return (
       <div className="GoogleMap">
