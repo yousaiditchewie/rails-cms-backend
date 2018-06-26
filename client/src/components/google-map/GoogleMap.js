@@ -12,7 +12,9 @@ const PinStyle = {
 };
 
 const CoordinatesComponent = () => (
-  <img src={bbar} alt="The Biscuit Bar" style={PinStyle} />
+  <a href="https://goo.gl/maps/Yxg4QjgPbDJ2" target="_blank">
+    <img src={bbar} alt="The Biscuit Bar" style={PinStyle} />
+  </a>
 );
 
 export default class GoogleMap extends Component {
