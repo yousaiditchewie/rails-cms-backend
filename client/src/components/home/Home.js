@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import GoogleMap from "../google-map/GoogleMap";
+import Gallery from "../gallery/Gallery";
 import "./Home.css";
 
 export default class Home extends Component {
@@ -11,7 +12,11 @@ export default class Home extends Component {
           <div className="Hero-container">
             <h2 className="Hero-slogan">Biscuits.&nbsp;Tots.&nbsp;Taps.</h2>
             <address className="Hero-address">
-              <a href="https://goo.gl/maps/Yxg4QjgPbDJ2" target="_blank">
+              <a
+                href="https://goo.gl/maps/Yxg4QjgPbDJ2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 5880 TX-121, Suite 102B<br />Plano, TX 75024
               </a>
               <br />
@@ -28,6 +33,7 @@ export default class Home extends Component {
           </div>
         </header>
         <GoogleMap />
+        <Gallery />
       </Fragment>
     );
   }

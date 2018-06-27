@@ -1,0 +1,41 @@
+.Gallery {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media only screen and (min-width: 769px) {
+    max-width: 1400px;
+    display: block;
+    max-height: 280px;
+  }
+
+  &-stock {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vw;
+    @media only screen and (min-width: 769px) {
+      display: inline-block;
+      width: 20%;
+      max-height: 280px;
+    }
+
+    &--1 {
+      background-image: url(./assets/stock1.jpg);
+    }
+    &--2 {
+      background-image: url(./assets/stock2.jpg);
+    }
+    &--3 {
+      background-image: url(./assets/stock3.jpg);
+    }
+    &--4 {
+      background-image: url(./assets/stock4.jpg);
+    }
+    &--5 {
+      background-image: url(./assets/stock5.jpg);
+    }
+  }
+}
