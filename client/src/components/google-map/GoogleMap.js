@@ -12,7 +12,11 @@ const PinStyle = {
 };
 
 const CoordinatesComponent = () => (
-  <a href="https://goo.gl/maps/Yxg4QjgPbDJ2" target="_blank">
+  <a
+    href="https://goo.gl/maps/Yxg4QjgPbDJ2"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img src={bbar} alt="The Biscuit Bar" style={PinStyle} />
   </a>
 );
