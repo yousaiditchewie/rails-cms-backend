@@ -10,7 +10,9 @@ export default class Testimonial extends Component {
   render() {
     return (
       <div className="Testimonial">
-        <div className="Testimonial-icon">"</div>
+        <div className="Testimonial-icon">
+          <span className="Testimonial-icon--inner">&#8220;</span>
+        </div>
         <div className="Testimonial-quote">{this.props.quote}</div>
         <div className="Testimonial-author">{this.props.author}</div>
       </div>

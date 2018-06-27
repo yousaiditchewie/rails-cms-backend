@@ -5,7 +5,7 @@ import "./Testimonials.css";
 export default class Testimonials extends Component {
   render() {
     return (
-      <Fragment>
+      <div className="Testimonials">
         <Testimonial
           quote={
             "Soft and flaky interior with just the right amount of golden, crunchy exterior."
@@ -24,7 +24,7 @@ export default class Testimonials extends Component {
           }
           author={"Plano Magazine"}
         />
-      </Fragment>
+      </div>
     );
   }
 }
