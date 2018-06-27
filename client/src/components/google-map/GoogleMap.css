@@ -1,5 +1,5 @@
 .GoogleMap {
   max-width: 1400px;
-  margin: 0 auto 3rem; }
+  margin: 0 auto; }
   .GoogleMap > div {
-    min-height: 20rem; }
+    min-height: 280px; }

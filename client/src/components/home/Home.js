@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from "react";
 import GoogleMap from "../google-map/GoogleMap";
+import Testimonials from "../testimonials/Testimonials";
 import Gallery from "../gallery/Gallery";
 import "./Home.css";
 
@@ -33,6 +34,7 @@ export default class Home extends Component {
           </div>
         </header>
         <GoogleMap />
+        <Testimonials />
         <Gallery />
       </Fragment>
     );
