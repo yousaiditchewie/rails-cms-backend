@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import Testimonial from "./testimonial/Testimonial";
 import "./Testimonials.css";
 
