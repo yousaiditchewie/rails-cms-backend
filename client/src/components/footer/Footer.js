@@ -42,6 +42,16 @@ export default class Footer extends Component {
             </a>
           </div>
           <div className="Footer-right">
+            <div className="Footer-jacob serif">
+              Designed by{" "}
+              <a
+                href="http://jacobcallen.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Jacob Allen
+              </a>
+            </div>
             <span className="Footer-copyright serif">
               &copy;{this.state.date.getFullYear()} The Biscuit Bar LLC
             </span>
