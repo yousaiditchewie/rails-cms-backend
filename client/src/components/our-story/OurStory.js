@@ -22,7 +22,7 @@ export default class OurStory extends Component {
                 gather&nbsp;round.
               </h2>
               <p className="OurStory-copy">
-                ​ In late 2016, Jake and Janie Burkett welcomed twin girls,
+                ​In late 2016, Jake and Janie Burkett welcomed twin girls,
                 Brycee Jo and Blake, into their family and began planning their
                 lives as new parents. Their joy quickly turned to sorrow with
                 the unexpected passing of Brycee Jo due to a severe infection.
@@ -39,6 +39,7 @@ export default class OurStory extends Component {
                   href="http://jacobcallen.com"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ textDecoration: "underline" }}
                 >
                   Jacob Allen
                 </a>, an entire spread was created around the idea of
