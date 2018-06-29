@@ -54,9 +54,9 @@ export default class OurStory extends Component {
                 construction. They have lovingly developed every recipe on the
                 menu in their home kitchen, and cannot wait to share some family
                 love with all who pass through the doors of The Biscuit Bar.<br />
-                <br /> ​ The Biscuit Bar’s first location will open in Spring
-                2018 at The Boardwalk @ Granite Park in Plano. We look forward
-                to hearing your family’s story over a fresh batch of biscuits.
+                <br />The Biscuit Bar’s first location will open in Spring 2018
+                at The Boardwalk @ Granite Park in Plano. We look forward to
+                hearing your family’s story over a fresh batch of biscuits.
               </p>
             </div>
           </div>
