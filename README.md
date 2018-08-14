@@ -26,7 +26,7 @@ To run the application locally:
 3.  `bundle install`
 4.  Install Node modules for React with `yarn update`
 5.  `rake db:reset` to seed the database
-6.  `yarn go` starts Rails and React
+6.  `bin/rake start` starts Rails and React
 
 ## Deploy
 
