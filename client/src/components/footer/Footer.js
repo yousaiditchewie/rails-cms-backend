@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import "./Footer.css";
-import facebook from "./assets/facebook.svg";
-import instagram from "./assets/instagram.svg";
+import React, { Component } from 'react';
+import './Footer.css';
+import facebook from './assets/facebook.svg';
+import instagram from './assets/instagram.svg';
 
 export default class Footer extends Component {
   constructor(props) {
@@ -43,14 +43,7 @@ export default class Footer extends Component {
           </div>
           <div className="Footer-right">
             <div className="Footer-jacob serif">
-              Designed by{" "}
-              <a
-                href="http://jacobcallen.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Jacob Allen
-              </a>
+              Designed by <a href="mailto:jedijake@me.com">Jacob Allen</a>
             </div>
             <span className="Footer-copyright serif">
               &copy;{this.state.date.getFullYear()} The Biscuit Bar LLC

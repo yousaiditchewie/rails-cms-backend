@@ -1,4 +1,4 @@
-@import "../../../assets/scss/style";
+@import '../../../assets/scss/style';
 
 .Hero {
   position: relative;
@@ -58,6 +58,20 @@
       &:hover {
         color: $bbar-yellow;
       }
+    }
+  }
+
+  &-cta {
+    background-color: $bbar-yellow;
+    padding: 3rem 0;
+
+    @media only screen and (min-width: $desktop) {
+      margin-bottom: 3rem;
+    }
+
+    &--heading {
+      @include serif();
+      font-weight: normal;
     }
   }
 }
