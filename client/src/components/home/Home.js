@@ -33,7 +33,7 @@ export default class Home extends Component {
             </p>
           </div>
           <div className="Hero-cta">
-            <h2 className="Hero-cta--heading">We're&nbsp;Hiring!</h2>
+            <h2 className="Hero-cta--heading">We’re&nbsp;Hiring!</h2>
             <p className="Hero-cta--copy">
               Email your resume to{' '}
               <a
