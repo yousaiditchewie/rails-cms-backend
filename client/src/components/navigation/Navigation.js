@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "./Navigation.css";
-import logo from "./assets/biscuit-bar-logo.png";
+import React, { Component } from 'react';
+import './Navigation.css';
+import logo from './assets/biscuit-bar-logo.png';
 
 export default class Navigation extends Component {
   constructor(props) {
@@ -17,8 +17,8 @@ export default class Navigation extends Component {
     return (
       <nav
         className={
-          "Navigation " +
-          (this.state.navIsOpen ? "nav-is-open" : "nav-is-closed")
+          'Navigation ' +
+          (this.state.navIsOpen ? 'nav-is-open' : 'nav-is-closed')
         }
       >
         <div className="Navigation-logo--wrapper">
@@ -41,9 +41,9 @@ export default class Navigation extends Component {
           <a href="/our-story" className="Navigation-link">
             Our&nbsp;Story
           </a>
-          <a href="/jobs" className="Navigation-link">
+          {/* <a href="/jobs" className="Navigation-link">
             Jobs
-          </a>
+          </a> */}
         </div>
       </nav>
     );

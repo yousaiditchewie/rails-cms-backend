@@ -1,8 +1,8 @@
-import React, { Component, Fragment } from "react";
-import GoogleMap from "../google-map/GoogleMap";
-import Testimonials from "../testimonials/Testimonials";
-import Gallery from "../gallery/Gallery";
-import "./Home.css";
+import React, { Component, Fragment } from 'react';
+import GoogleMap from '../google-map/GoogleMap';
+import Testimonials from '../testimonials/Testimonials';
+import Gallery from '../gallery/Gallery';
+import './Home.css';
 
 export default class Home extends Component {
   render() {
@@ -30,6 +30,20 @@ export default class Home extends Component {
               Sunday 8am-10pm<br />
               Mon - Wed 8am-11pm<br />
               Thurs - Sat 8am-Midnight
+            </p>
+          </div>
+          <div className="Hero-cta">
+            <h2 className="Hero-cta--heading">We’re&nbsp;Hiring!</h2>
+            <p className="Hero-cta--copy">
+              Email your resume to{' '}
+              <a
+                href="mailto:jobs@thebiscuit.bar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Hero-cta--email"
+              >
+                jobs@thebiscuit.bar
+              </a>
             </p>
           </div>
         </header>

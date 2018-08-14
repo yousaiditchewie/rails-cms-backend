@@ -1,4 +1,4 @@
-@import "../../../assets/scss/style";
+@import '../../../assets/scss/style';
 
 .Navigation {
   display: inline-block;
@@ -53,9 +53,15 @@
     top: 1.25rem;
     right: 1.25rem;
     cursor: pointer;
+    transform: rotate(0);
+    transition: transform 0.25s ease-out;
+
+    .nav-is-open & {
+      transform: rotate(180deg);
+    }
 
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -64,7 +70,7 @@
       border-bottom: 2px solid $black;
       transform: rotate(0);
       transform-origin: top left;
-      transition: transform 0.25s ease;
+      transition: transform 0.25s ease-out;
 
       .nav-is-open & {
         transform: rotate(39.5deg);
@@ -72,7 +78,7 @@
     }
 
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       top: 1.25rem;
       right: 0;
@@ -81,7 +87,7 @@
       border-bottom: 2px solid $black;
       transform: rotate(0);
       transform-origin: bottom left;
-      transition: transform 0.25s ease;
+      transition: transform 0.25s ease-out;
 
       .nav-is-open & {
         transform: rotate(-39.5deg);
@@ -120,7 +126,9 @@
     transition: max-height 0.25s ease-out;
 
     .nav-is-open & {
-      max-height: 12rem;
+      max-height: 7.5rem;
+      // Return to 12 rem when Jobs page is complete
+      // max-height: 12rem;
     }
 
     @media only screen and (min-width: $desktop) {
@@ -129,7 +137,9 @@
       flex: 1 1 100%;
       justify-content: space-between;
       max-height: none;
-      max-width: 560px;
+      max-width: 230px;
+      // Return to 560 when Jobs page is complete
+      // max-width: 560px;
       padding: 1rem 0 0;
       overflow: visible;
       border: none;
@@ -147,7 +157,7 @@
       margin: 0;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         display: block;
         bottom: 0;

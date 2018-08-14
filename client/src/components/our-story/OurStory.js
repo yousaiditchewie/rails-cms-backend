@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from "react";
-import "./OurStory.css";
+import React, { Component, Fragment } from 'react';
+import './OurStory.css';
 
 export default class OurStory extends Component {
   render() {
@@ -34,12 +34,10 @@ export default class OurStory extends Component {
                 towards healing. Though simple comfort foods were a staple, one
                 item kept recurring on the menu: Biscuits.<br />
                 <br /> On New Year’s Eve 2016, side-by-side with Janie’s
-                brother,{" "}
+                brother,{' '}
                 <a
-                  href="http://jacobcallen.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ textDecoration: "underline" }}
+                  href="mailto:jedijake@me.com"
+                  style={{ textDecoration: 'underline' }}
                 >
                   Jacob Allen
                 </a>, an entire spread was created around the idea of

@@ -44,3 +44,12 @@
   @media (any-hover: hover) {
     .Hero-phone:hover {
       color: #f5d015; } }
+  .Hero-cta {
+    background-color: #f5d015;
+    padding: 3rem 0; }
+    @media only screen and (min-width: 769px) {
+      .Hero-cta {
+        margin-bottom: 3rem; } }
+    .Hero-cta--heading {
+      font-family: "Playfair Display", serif;
+      font-weight: normal; }
