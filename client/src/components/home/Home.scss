@@ -33,9 +33,10 @@
     @include serif;
     font-size: 1.75rem;
     font-weight: normal;
+    font-size: 2.25rem;
 
     @media only screen and (min-width: $desktop) {
-      font-size: 2.25rem;
+      font-size: 3rem;
     }
   }
 
@@ -63,15 +64,30 @@
 
   &-cta {
     background-color: $bbar-yellow;
-    padding: 3rem 0;
 
     @media only screen and (min-width: $desktop) {
       margin-bottom: 3rem;
     }
+  }
+}
 
-    &--heading {
-      @include serif();
-      font-weight: normal;
+.Hero-cta,
+.Footer-cta {
+  padding: 3rem 1rem;
+  text-align: center;
+
+  &--heading {
+    @include serif();
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0;
+
+    @media only screen and (min-width: $desktop) {
+      font-size: 3rem;
     }
+  }
+
+  &--copy {
+    margin-bottom: 0;
   }
 }

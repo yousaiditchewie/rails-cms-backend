@@ -50,6 +50,17 @@ export default class Home extends Component {
         <GoogleMap />
         <Testimonials />
         <Gallery />
+        <div className="Footer-cta">
+          <h2 className="Footer-cta--heading">
+            Let us cater your next&nbsp;event.
+          </h2>
+          <p className="Footer-cta--copy">
+            Email catering inquiries to{' '}
+            <a href="mailto:info@thebiscuit.bar" className="Footer-cta--email">
+              info@thebiscuit.bar
+            </a>
+          </p>
+        </div>
       </Fragment>
     );
   }

@@ -15,8 +15,7 @@
   min-height: 15rem;
   padding: 1rem;
   text-align: center;
-  background: #f5d015;
-  background-image: linear-gradient(20deg, #f5d015 30%, #f5e16a 70%, #f5eda9 90%); }
+  background: #f5d015; }
   @media only screen and (min-width: 769px) {
     .Hero-Menu {
       min-height: 20rem; } }

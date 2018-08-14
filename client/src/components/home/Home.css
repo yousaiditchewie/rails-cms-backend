@@ -29,10 +29,11 @@
   .Hero-slogan {
     font-family: "Playfair Display", serif;
     font-size: 1.75rem;
-    font-weight: normal; }
+    font-weight: normal;
+    font-size: 2.25rem; }
     @media only screen and (min-width: 769px) {
       .Hero-slogan {
-        font-size: 2.25rem; } }
+        font-size: 3rem; } }
   .Hero-address {
     padding: 1rem 0;
     font-family: "Montserrat", sans-serif;
@@ -45,11 +46,25 @@
     .Hero-phone:hover {
       color: #f5d015; } }
   .Hero-cta {
-    background-color: #f5d015;
-    padding: 3rem 0; }
+    background-color: #f5d015; }
     @media only screen and (min-width: 769px) {
       .Hero-cta {
         margin-bottom: 3rem; } }
-    .Hero-cta--heading {
-      font-family: "Playfair Display", serif;
-      font-weight: normal; }
+
+.Hero-cta,
+.Footer-cta {
+  padding: 3rem 1rem;
+  text-align: center; }
+  .Hero-cta--heading,
+  .Footer-cta--heading {
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0; }
+    @media only screen and (min-width: 769px) {
+      .Hero-cta--heading,
+      .Footer-cta--heading {
+        font-size: 3rem; } }
+  .Hero-cta--copy,
+  .Footer-cta--copy {
+    margin-bottom: 0; }
