@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display");
 .serif {
-  font-family: "Playfair Display", serif; }
+  font-family: 'Playfair Display', serif; }
 
 .sans-serif {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
 
 .Hero-Menu {
   display: flex;
@@ -20,7 +20,7 @@
     .Hero-Menu {
       min-height: 20rem; } }
   .Hero-Menu-heading {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2.25rem;
     margin-bottom: 2rem; }
     @media only screen and (min-width: 769px) {

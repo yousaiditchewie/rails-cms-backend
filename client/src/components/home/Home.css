@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display");
 .serif {
-  font-family: "Playfair Display", serif; }
+  font-family: 'Playfair Display', serif; }
 
 .sans-serif {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
 
 .Hero {
   position: relative;
@@ -27,7 +27,7 @@
   .Hero-container {
     padding: 3rem 0; }
   .Hero-slogan {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.75rem;
     font-weight: normal;
     font-size: 2.25rem; }
@@ -36,15 +36,18 @@
         font-size: 3rem; } }
   .Hero-address {
     padding: 1rem 0;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-style: normal; }
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem; }
     @media (any-hover: hover) {
       .Hero-address a:hover {
         color: #f5d015; } }
   @media (any-hover: hover) {
     .Hero-phone:hover {
       color: #f5d015; } }
+  .Hero-hours {
+    font-size: 1.15rem; }
   .Hero-cta {
     background-color: #f5d015; }
     @media only screen and (min-width: 769px) {
@@ -57,7 +60,7 @@
   text-align: center; }
   .Hero-cta--heading,
   .Footer-cta--heading {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
     font-size: 2rem;
     margin-top: 0; }

@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display");
 .serif {
-  font-family: "Playfair Display", serif; }
+  font-family: 'Playfair Display', serif; }
 
 .sans-serif {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
 
 .Navigation {
   display: inline-block;
@@ -41,7 +41,7 @@
       max-width: 9rem; }
       @media only screen and (min-width: 769px) {
         .Navigation-logo--img {
-          max-width: 15rem; } }
+          max-width: 20rem; } }
   .Navigation-menu-toggle {
     position: absolute;
     height: 1.5rem;

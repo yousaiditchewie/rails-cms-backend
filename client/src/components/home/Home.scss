@@ -44,6 +44,7 @@
     padding: 1rem 0;
     @include sans-serif;
     font-style: normal;
+    font-size: 1.25rem;
 
     & a {
       @media (any-hover: hover) {
@@ -62,6 +63,9 @@
     }
   }
 
+  &-hours {
+    font-size: 1.15rem;
+  }
   &-cta {
     background-color: $bbar-yellow;
 

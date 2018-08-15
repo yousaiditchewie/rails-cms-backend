@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display");
 .serif {
-  font-family: "Playfair Display", serif; }
+  font-family: 'Playfair Display', serif; }
 
 .sans-serif {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
 
 .Hero-OurStory {
   display: none; }
@@ -23,14 +23,14 @@
     .Hero-OurStory {
       min-height: 20rem; } }
   .Hero-OurStory-heading {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 2.25rem;
     margin-bottom: 2rem; }
     @media only screen and (min-width: 769px) {
       .Hero-OurStory-heading {
         font-size: 3rem; } }
   .Hero-OurStory-title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 1.25rem; }
     @media only screen and (min-width: 769px) {
       .Hero-OurStory-title {
@@ -42,7 +42,7 @@
     .OurStory {
       padding: 3rem 0; } }
   .OurStory-title, .OurStory-heading {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     text-align: center; }
     @media only screen and (min-width: 1024px) {
       .OurStory-title, .OurStory-heading {
