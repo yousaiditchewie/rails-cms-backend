@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-import "./Gallery.css";
-import stock1 from "./assets/stock1.jpg";
-import stock2 from "./assets/stock2.jpg";
-import stock3 from "./assets/stock3.jpg";
-import stock4 from "./assets/stock4.jpg";
-import stock5 from "./assets/stock5.jpg";
+import React, { Component } from 'react';
+import stock1 from './assets/stock1.jpg';
+import stock2 from './assets/stock2.jpg';
+import stock3 from './assets/stock3.jpg';
+import stock4 from './assets/stock4.jpg';
+import stock5 from './assets/stock5.jpg';
+
+import './backgroundImage.css';
 
 export default class Gallery extends Component {
   render() {

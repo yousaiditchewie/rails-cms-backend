@@ -1,6 +1,5 @@
-import React, { Component } from "react";
-import Testimonial from "./testimonial/Testimonial";
-import "./Testimonials.css";
+import React, { Component } from 'react';
+import Testimonial from './testimonial/Testimonial';
 
 export default class Testimonials extends Component {
   render() {
@@ -8,21 +7,21 @@ export default class Testimonials extends Component {
       <div className="Testimonials">
         <Testimonial
           quote={
-            "We were more than satisfied. Thankfully, they do excellent\u00a0biscuits."
+            'We were more than satisfied. Thankfully, they do excellent\u00a0biscuits.'
           }
-          author={"Dallas Morning News"}
+          author={'Dallas Morning News'}
         />
         <Testimonial
           quote={
-            "I definitely will be back making it a point to try each of their unique biscuit\u00a0creations."
+            'I definitely will be back making it a point to try each of their unique biscuit\u00a0creations.'
           }
-          author={"Crave DFW"}
+          author={'Crave DFW'}
         />
         <Testimonial
           quote={
-            "Any time spend at the Biscuit Bar is fixin’ to be a good\u00a0time."
+            'Any time spend at the Biscuit Bar is fixin’ to be a good\u00a0time.'
           }
-          author={"Plano Magazine"}
+          author={'Plano Magazine'}
         />
       </div>
     );

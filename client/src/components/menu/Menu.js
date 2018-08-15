@@ -1,9 +1,8 @@
-import React, { Component, Fragment } from "react";
-import "./Menu.css";
+import React, { Component, Fragment } from 'react';
 
-import mainMenu from "./assets/main-menu.jpg";
-import drinkMenu from "./assets/drink-menu.jpg";
-import happyHour from "./assets/happy-hour.jpg";
+import mainMenu from './assets/main-menu.jpg';
+import drinkMenu from './assets/drink-menu.jpg';
+import happyHour from './assets/happy-hour.jpg';
 
 export default class Menu extends Component {
   render() {
@@ -30,7 +29,7 @@ export default class Menu extends Component {
               src={happyHour}
               alt="Happy Hour Monday through Friday from 3pm to 6pm"
               className="Menu-main"
-            />{" "}
+            />{' '}
           </div>
         </main>
       </Fragment>

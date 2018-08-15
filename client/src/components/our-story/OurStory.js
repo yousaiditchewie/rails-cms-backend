@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import './OurStory.css';
+import './backgroundImage.css';
 
 export default class OurStory extends Component {
   render() {

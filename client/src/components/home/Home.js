@@ -2,7 +2,8 @@ import React, { Component, Fragment } from 'react';
 import GoogleMap from '../google-map/GoogleMap';
 import Testimonials from '../testimonials/Testimonials';
 import Gallery from '../gallery/Gallery';
-import './Home.css';
+
+import './backgroundImage.css';
 
 export default class Home extends Component {
   render() {
