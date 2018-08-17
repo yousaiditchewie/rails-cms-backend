@@ -1,5 +1,3 @@
-@import '../../../assets/scss/style';
-
 .Navigation {
   display: inline-block;
   width: 100%;
@@ -41,7 +39,7 @@
       max-width: 9rem;
 
       @media only screen and (min-width: $desktop) {
-        max-width: 15rem;
+        max-width: 20rem;
       }
     }
   }

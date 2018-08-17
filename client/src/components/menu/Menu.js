@@ -1,9 +1,11 @@
-import React, { Component, Fragment } from "react";
-import "./Menu.css";
+import React, { Component, Fragment } from 'react';
 
-import mainMenu from "./assets/main-menu.jpg";
-import drinkMenu from "./assets/drink-menu.jpg";
-import happyHour from "./assets/happy-hour.jpg";
+import Cta from '../Cta/Cta';
+import bbarStyles from '../../styles/bbarStyles';
+
+import mainMenu from './assets/main-menu.jpg';
+import drinkMenu from './assets/drink-menu.jpg';
+import happyHour from './assets/happy-hour.jpg';
 
 export default class Menu extends Component {
   render() {
@@ -21,6 +23,13 @@ export default class Menu extends Component {
               alt="Biscuits served daily"
               className="Menu-main"
             />
+            <Cta
+              backgroundColor={bbarStyles.colors.bbarYellow}
+              header="Like what you&nbsp;see?"
+              copy="Email your resume to "
+              ctaText="jobs@thebiscuit.bar."
+              ctaHref="mailto:jobs@thebiscuit.bar"
+            />
             <img
               src={drinkMenu}
               alt="Drinks served daily"
@@ -30,7 +39,7 @@ export default class Menu extends Component {
               src={happyHour}
               alt="Happy Hour Monday through Friday from 3pm to 6pm"
               className="Menu-main"
-            />{" "}
+            />{' '}
           </div>
         </main>
       </Fragment>

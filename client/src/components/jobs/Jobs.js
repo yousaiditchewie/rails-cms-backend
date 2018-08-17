@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import "./Jobs.css";
+import React, { Component } from 'react';
 
 export default class Jobs extends Component {
   render() {

@@ -2,7 +2,10 @@ import React, { Component, Fragment } from 'react';
 import GoogleMap from '../google-map/GoogleMap';
 import Testimonials from '../testimonials/Testimonials';
 import Gallery from '../gallery/Gallery';
-import './Home.css';
+import Cta from '../Cta/Cta';
+
+import bbarStyles from '../../styles/bbarStyles';
+import './backgroundImage.css';
 
 export default class Home extends Component {
   render() {
@@ -32,35 +35,21 @@ export default class Home extends Component {
               Thurs - Sat 8am-Midnight
             </p>
           </div>
-          <div className="Hero-cta">
-            <h2 className="Hero-cta--heading">We’re&nbsp;Hiring!</h2>
-            <p className="Hero-cta--copy">
-              Email your resume to{' '}
-              <a
-                href="mailto:jobs@thebiscuit.bar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="Hero-cta--email"
-              >
-                jobs@thebiscuit.bar
-              </a>
-            </p>
-          </div>
+          <Cta
+            backgroundColor={bbarStyles.colors.bbarYellow}
+            header="We’re&nbsp;Hiring!"
+            copy={`Text <strong>LevelUp</strong> to <strong>33222</strong> to&nbsp;apply.`}
+          />
         </header>
         <GoogleMap />
         <Testimonials />
         <Gallery />
-        <div className="Footer-cta">
-          <h2 className="Footer-cta--heading">
-            Let us cater your next&nbsp;event.
-          </h2>
-          <p className="Footer-cta--copy">
-            Email catering inquiries to{' '}
-            <a href="mailto:info@thebiscuit.bar" className="Footer-cta--email">
-              info@thebiscuit.bar
-            </a>
-          </p>
-        </div>
+        <Cta
+          header="Let us cater your next&nbsp;event!"
+          copy="Email catering inquiries to "
+          ctaText="info@thebiscuit.bar"
+          ctaHref="mailto:info@thebiscuit.bar"
+        />
       </Fragment>
     );
   }

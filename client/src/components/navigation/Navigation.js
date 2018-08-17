@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Navigation.css';
 import logo from './assets/biscuit-bar-logo.png';
 
 export default class Navigation extends Component {

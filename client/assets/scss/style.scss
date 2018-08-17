@@ -1,4 +1,17 @@
-@import "./colors";
-@import "./layout";
-@import "./typography";
-@import "./variables";
+// Settings
+@import 'settings/colors';
+@import 'settings/layout';
+@import 'settings/typography';
+@import 'settings/variables';
+
+// Components
+@import 'components/Footer';
+@import 'components/Gallery';
+@import 'components/GoogleMap';
+@import 'components/Home';
+@import 'components/Jobs';
+@import 'components/Menu';
+@import 'components/Navigation';
+@import 'components/OurStory';
+@import 'components/Testimonials';
+@import 'components/Cta';

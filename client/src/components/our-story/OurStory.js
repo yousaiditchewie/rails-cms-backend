@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import './OurStory.css';
+
+import Cta from '../Cta/Cta';
+import './backgroundImage.css';
 
 export default class OurStory extends Component {
   render() {
@@ -59,6 +61,10 @@ export default class OurStory extends Component {
             </div>
           </div>
         </article>
+        <Cta
+          header="Join our team &amp; be a part of our&nbsp;story."
+          copy={`Text <strong>LevelUp</strong> to <strong>33222</strong> to&nbsp;apply.`}
+        />
       </Fragment>
     );
   }
