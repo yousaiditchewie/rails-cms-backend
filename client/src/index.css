@@ -76,7 +76,7 @@
 
 .GoogleMap {
   max-width: 1400px;
-  margin: 0 auto; }
+  margin: 5rem auto 0 auto; }
   .GoogleMap > div {
     min-height: 280px; }
 
@@ -124,24 +124,6 @@
     @media only screen and (min-width: 769px) {
       .Hero-cta {
         margin-bottom: 3rem; } }
-
-.Hero-cta,
-.Footer-cta {
-  padding: 3rem 1rem;
-  text-align: center; }
-  .Hero-cta--heading,
-  .Footer-cta--heading {
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-    font-size: 2rem;
-    margin-top: 0; }
-    @media only screen and (min-width: 769px) {
-      .Hero-cta--heading,
-      .Footer-cta--heading {
-        font-size: 3rem; } }
-  .Hero-cta--copy,
-  .Footer-cta--copy {
-    margin-bottom: 0; }
 
 .Hero-Menu {
   display: flex;
@@ -408,6 +390,20 @@
       flex-direction: row;
       padding-top: 5rem;
       padding-bottom: 5rem; } }
+
+.Cta {
+  padding: 5rem 1rem;
+  text-align: center; }
+  .Cta--heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0; }
+    @media only screen and (min-width: 769px) {
+      .Cta--heading {
+        font-size: 3rem; } }
+  .Cta--copy {
+    margin-bottom: 0; }
 
 html {
   font-size: 16px; }
