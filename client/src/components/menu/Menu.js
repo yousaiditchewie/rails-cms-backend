@@ -26,9 +26,9 @@ export default class Menu extends Component {
             <Cta
               backgroundColor={bbarStyles.colors.bbarYellow}
               header="Like what you&nbsp;see?"
-              copy="Email your resume to "
-              ctaText="jobs@thebiscuit.bar."
-              ctaHref="mailto:jobs@thebiscuit.bar"
+              copy="Email catering inquiries to "
+              ctaText="info@thebiscuit.bar."
+              ctaHref="mailto:info@thebiscuit.bar"
             />
             <img
               src={drinkMenu}
