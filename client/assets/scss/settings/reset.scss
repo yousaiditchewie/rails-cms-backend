@@ -1,3 +1,4 @@
+<<<<<<< HEAD:client/src/index.scss
 // @import '../assets/scss/style';
 
 // // makeshift reset
@@ -28,3 +29,28 @@
 //   overflow: hidden;
 //   padding: 0;
 // }
+=======
+// makeshift reset
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $white;
+  @include sans-serif;
+  font-size: 1.125rem;
+  color: $black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+>>>>>>> ca5758faffbc7a96eac6dd301b5e5d231f8a49bc:client/assets/scss/settings/reset.scss
