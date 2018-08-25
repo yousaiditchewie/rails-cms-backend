@@ -471,4 +471,10 @@ body {
       .Cta--heading {
         font-size: 3rem; } }
   .Cta--copy {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 1.25rem; }
+    @media only screen and (min-width: 769px) {
+      .Cta--copy {
+        font-size: 1.75rem; } }
+  .Cta strong {
+    font-size: 110%; }
