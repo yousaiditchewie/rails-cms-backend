@@ -425,20 +425,6 @@ body {
       padding-top: 5rem;
       padding-bottom: 5rem; } }
 
-.Cta {
-  padding: 5rem 1rem;
-  text-align: center; }
-  .Cta--heading {
-    font-family: 'Playfair Display', serif;
-    font-weight: normal;
-    font-size: 2rem;
-    margin-top: 0; }
-    @media only screen and (min-width: 769px) {
-      .Cta--heading {
-        font-size: 3rem; } }
-  .Cta--copy {
-    margin-bottom: 0; }
-
 .Testimonial {
   display: flex;
   flex: 1 1 100%;
@@ -472,3 +458,17 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
     padding-bottom: 1rem; }
+
+.Cta {
+  padding: 5rem 1rem;
+  text-align: center; }
+  .Cta--heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0; }
+    @media only screen and (min-width: 769px) {
+      .Cta--heading {
+        font-size: 3rem; } }
+  .Cta--copy {
+    margin-bottom: 0; }
