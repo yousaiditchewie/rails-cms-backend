@@ -1,30 +1,30 @@
-@import '../assets/scss/style';
+// @import '../assets/scss/style';
 
-// makeshift reset
-html {
-  font-size: 16px;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background: $white;
-  @include sans-serif;
-  font-size: 1rem;
-  color: $black;
-}
-* {
-  box-sizing: border-box;
-}
-a {
-  text-decoration: none;
-  color: $nickel-gray;
-  transition: color 0.25s ease-out;
-  &:hover {
-    color: $jet-black;
-  }
-}
-#root {
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0;
-}
+// // makeshift reset
+// html {
+//   font-size: 16px;
+// }
+// body {
+//   margin: 0;
+//   padding: 0;
+//   background: $white;
+//   @include sans-serif;
+//   font-size: 1rem;
+//   color: $black;
+// }
+// * {
+//   box-sizing: border-box;
+// }
+// a {
+//   text-decoration: none;
+//   color: $nickel-gray;
+//   transition: color 0.25s ease-out;
+//   &:hover {
+//     color: $jet-black;
+//   }
+// }
+// #root {
+//   max-width: 100%;
+//   overflow: hidden;
+//   padding: 0;
+// }
