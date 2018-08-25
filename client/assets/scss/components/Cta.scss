@@ -15,5 +15,14 @@
 
   &--copy {
     margin-bottom: 0;
+    font-size: 1.25rem;
+
+    @media only screen and (min-width: $desktop) {
+      font-size: 1.75rem;
+    }
+  }
+
+  strong {
+    font-size: 110%;
   }
 }
