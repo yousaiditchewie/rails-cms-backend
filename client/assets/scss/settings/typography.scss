@@ -1,6 +1,6 @@
 // @import url("https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville");
 // @import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display");
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle:400+700|Playfair+Display');
 
 @mixin serif() {
   // font-family: 'Libre Baskerville', serif;
@@ -10,7 +10,7 @@
 @mixin sans-serif() {
   // font-family: 'Playfair Display', serif;
   // font-family: 'Lato', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'News Cycle', sans-serif;
   font-weight: 400;
 }
 
@@ -20,4 +20,22 @@
 
 .sans-serif {
   @include sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $nickel-gray;
+  transition: color 0.25s ease-out;
+  &:hover {
+    color: $jet-black;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.25;
 }
