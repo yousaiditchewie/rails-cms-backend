@@ -1,10 +1,44 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=News+Cycle:400+700|Playfair+Display");
 .serif {
   font-family: 'Playfair Display', serif; }
 
 .sans-serif {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'News Cycle', sans-serif;
   font-weight: 400; }
+
+a {
+  text-decoration: none;
+  color: #5f6973;
+  transition: color 0.25s ease-out; }
+  a:hover {
+    color: #393e40; }
+
+strong {
+  font-weight: 700; }
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.25; }
+
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #000; }
+
+* {
+  box-sizing: border-box; }
+
+#root {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0; }
 
 .Footer {
   padding: 2rem 0;
@@ -107,7 +141,7 @@
         font-size: 3rem; } }
   .Hero-address {
     padding: 1rem 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'News Cycle', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem; }
@@ -404,30 +438,3 @@
         font-size: 3rem; } }
   .Cta--copy {
     margin-bottom: 0; }
-
-html {
-  font-size: 16px; }
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  color: #000; }
-
-* {
-  box-sizing: border-box; }
-
-a {
-  text-decoration: none;
-  color: #5f6973;
-  transition: color 0.25s ease-out; }
-  a:hover {
-    color: #393e40; }
-
-#root {
-  max-width: 100%;
-  overflow: hidden;
-  padding: 0; }

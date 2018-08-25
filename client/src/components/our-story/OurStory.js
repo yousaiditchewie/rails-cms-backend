@@ -35,28 +35,34 @@ export default class OurStory extends Component {
                 often the case, food played a pivotal role in their journey
                 towards healing. Though simple comfort foods were a staple, one
                 item kept recurring on the menu: Biscuits.<br />
-                <br /> On New Year’s Eve 2016, side-by-side with Janie’s
-                brother,{' '}
-                <a
-                  href="mailto:jedijake@me.com"
-                  style={{ textDecoration: 'underline' }}
-                >
-                  Jacob Allen
-                </a>, an entire spread was created around the idea of
-                custom-made, do-it-yourself biscuit sandwiches. They whipped up
-                a “biscuit bar” in their kitchen, featuring fluffy, scratch-made
-                biscuits with mouth-watering toppings like scrambled eggs,
-                bacon, fried chicken, sausage gravy, maple syrup, and honey
-                butter. The success of this singular meal gave birth to a great
-                new passion for the Burketts.<br />
-                <br /> Over the past year, Jake and Janie have seen their new
+                <br />
+                On New Year’s Eve 2016, side-by-side with Janie’s brother,{' '}
+                <a href="mailto:jedijake@me.com">Jacob Allen</a>, an entire
+                spread was created around the idea of custom-made,
+                do-it-yourself biscuit sandwiches. They whipped up a “biscuit
+                bar” in their kitchen, featuring fluffy, scratch-made biscuits
+                with mouth-watering toppings like scrambled eggs, bacon, fried
+                chicken, sausage gravy, and maple syrup. The success of this
+                singular meal gave birth to a great new passion for the
+                Burketts.<br />
+                <br />Over the past 2 years, Jake and Janie have seen their new
                 passion take flight from a creative concept to brick-and-mortar
                 construction. They have lovingly developed every recipe on the
-                menu in their home kitchen, and cannot wait to share some family
-                love with all who pass through the doors of The Biscuit Bar.<br />
-                <br />The Biscuit Bar’s first location will open in Spring 2018
-                at The Boardwalk @ Granite Park in Plano. We look forward to
-                hearing your family’s story over a fresh batch of biscuits.
+                menu in their home kitchen, and find great joy in sharing some
+                family love with all who pass through the doors of The Biscuit
+                Bar.<br />
+                <br />The Biscuit Bar’s first location opened in Spring 2018 at
+                The Boardwalk @ Granite Park in Plano, with plans for expanding
+                to multiple locations in the near future. In addition to opening
+                the restaurant, the Burketts welcomed a beautiful baby boy into
+                their family in June of 2018.<br />
+                <br />
+                We look forward to hearing your family’s story over a fresh
+                batch of biscuits.<br />
+                <br />
+                <strong>
+                  &ndash;&nbsp;Jake, Janie, Blake, and Banner Burkett
+                </strong>
               </p>
             </div>
           </div>
