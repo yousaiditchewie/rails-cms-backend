@@ -1,3 +1,5 @@
-@media only screen and (min-width: 769px) {
-  .OurStory-image {
-    background-image: url(./assets/our-story.jpg); } }
+.OurStory-image {
+  background-image: url(./assets/our-story-mobile.jpg); }
+  @media only screen and (min-width: 769px) {
+    .OurStory-image {
+      background-image: url(./assets/our-story.jpg); } }
