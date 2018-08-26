@@ -133,7 +133,6 @@ body {
     padding: 3rem 0; }
   .Hero-slogan {
     font-family: 'Playfair Display', serif;
-    font-size: 1.75rem;
     font-weight: normal;
     font-size: 2.25rem; }
     @media only screen and (min-width: 769px) {
@@ -482,3 +481,23 @@ body {
         font-size: 1.75rem; } }
   .Cta strong {
     font-size: 110%; }
+
+.NotFound {
+  display: block;
+  margin: 0 auto 3rem auto;
+  max-width: 1200px;
+  text-align: center; }
+  .NotFound-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px; }
+  .NotFound-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 2.25rem; }
+    @media only screen and (min-width: 769px) {
+      .NotFound-heading {
+        font-size: 3rem; } }
+  .NotFound-copy {
+    font-size: 1.25rem; }

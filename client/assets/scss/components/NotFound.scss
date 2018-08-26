@@ -1,0 +1,27 @@
+.NotFound {
+  display: block;
+  margin: 0 auto 3rem auto;
+  max-width: 1200px;
+  text-align: center;
+
+  &-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+  }
+
+  &-heading {
+    @include serif();
+    font-weight: 400;
+    font-size: 2.25rem;
+
+    @media only screen and (min-width: $desktop) {
+      font-size: 3rem;
+    }
+  }
+
+  &-copy {
+    font-size: 1.25rem;
+  }
+}
