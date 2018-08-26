@@ -5,17 +5,39 @@
   background: $white;
   color: $black;
 
-  &-image {
-    width: 100%;
-    min-height: 15rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  &-img {
+    &--mobile,
+    &--desktop {
+      marign: 0 auto;
+      width: 100%;
+    }
 
-    @media only screen and (min-width: $desktop) {
-      min-height: 38rem;
+    &--mobile {
+      display: block;
+      @media only screen and (min-width: $desktop) {
+        display: none;
+      }
+    }
+    &--desktop {
+      display: none;
+
+      @media only screen and (min-width: $desktop) {
+        display: block;
+      }
     }
   }
+
+  // &-image {
+  //   width: 100%;
+  //   min-height: 15rem;
+  //   background-position: center;
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+
+  //   @media only screen and (min-width: $desktop) {
+  //     min-height: 38rem;
+  //   }
+  // }
 
   &-container {
     padding: 3rem 0;

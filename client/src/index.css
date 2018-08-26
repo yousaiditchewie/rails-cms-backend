@@ -120,15 +120,19 @@ body {
   z-index: 0;
   background: #fff;
   color: #000; }
-  .Hero-image {
-    width: 100%;
-    min-height: 15rem;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; }
+  .Hero-img--mobile, .Hero-img--desktop {
+    marign: 0 auto;
+    width: 100%; }
+  .Hero-img--mobile {
+    display: block; }
     @media only screen and (min-width: 769px) {
-      .Hero-image {
-        min-height: 38rem; } }
+      .Hero-img--mobile {
+        display: none; } }
+  .Hero-img--desktop {
+    display: none; }
+    @media only screen and (min-width: 769px) {
+      .Hero-img--desktop {
+        display: block; } }
   .Hero-container {
     padding: 3rem 0; }
   .Hero-slogan {
