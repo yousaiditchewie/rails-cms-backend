@@ -19,7 +19,7 @@ export default class Testimonials extends Component {
         />
         <Testimonial
           quote={
-            'Any time spend at the Biscuit Bar is fixin’ to be a good\u00a0time.'
+            'Any time spent at the Biscuit Bar is fixin’ to be a good\u00a0time.'
           }
           author={'Plano Magazine'}
         />
