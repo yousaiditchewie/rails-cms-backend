@@ -298,6 +298,9 @@ body {
     .nav-is-open .Navigation-list {
       max-height: 8.5rem;
       padding-bottom: 1px; }
+      @media screen and (orientation: landscape) {
+        .nav-is-open .Navigation-list {
+          max-height: 10rem; } }
     @media only screen and (min-width: 769px) {
       .Navigation-list {
         position: relative;
