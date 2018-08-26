@@ -5,14 +5,17 @@ import Gallery from '../gallery/Gallery';
 import Cta from '../Cta/Cta';
 
 import bbarStyles from '../../styles/bbarStyles';
-import './backgroundImage.css';
+import heroMobile from './assets/home-hero-mobile.jpg';
+import heroDesktop from './assets/home-hero.jpg';
 
 export default class Home extends Component {
   render() {
     return (
       <Fragment>
         <header id="hero" className="Hero">
-          <div className="Hero-image" />
+          {/* <div className="Hero-image" /> */}
+          <img src={heroMobile} alt="" className="Hero-img--mobile" />
+          <img src={heroDesktop} alt="" className="Hero-img--desktop" />
           <div className="Hero-container">
             <h2 className="Hero-slogan">Biscuits.&nbsp;Tots.&nbsp;Taps.</h2>
             <address className="Hero-address">
