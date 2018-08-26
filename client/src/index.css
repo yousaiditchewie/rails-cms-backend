@@ -162,29 +162,21 @@ body {
       .Hero-cta {
         margin-bottom: 3rem; } }
 
-.Hero-Menu {
-  display: flex;
-  flex: 1 1 100%;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-  min-height: 15rem;
-  padding: 1rem;
-  text-align: center;
-  background: #f5d015; }
-  @media only screen and (min-width: 769px) {
-    .Hero-Menu {
-      min-height: 20rem; } }
-  .Hero-Menu-heading {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.25rem;
-    margin-bottom: 2rem; }
-    @media only screen and (min-width: 769px) {
-      .Hero-Menu-heading {
-        font-size: 3rem; } }
-
 .Menu {
   background: #fff; }
+  .Menu-heroImg--mobile, .Menu-heroImg--desktop {
+    margin: 0 auto;
+    width: 100%; }
+  .Menu-heroImg--mobile {
+    display: block; }
+    @media only screen and (min-width: 769px) {
+      .Menu-heroImg--mobile {
+        display: none; } }
+  .Menu-heroImg--desktop {
+    display: none; }
+    @media only screen and (min-width: 769px) {
+      .Menu-heroImg--desktop {
+        display: block; } }
   .Menu-wrapper {
     max-width: 1400px;
     padding: 0 1rem;

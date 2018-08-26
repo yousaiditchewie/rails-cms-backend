@@ -13,9 +13,16 @@ export default class Home extends Component {
     return (
       <Fragment>
         <header id="hero" className="Hero">
-          {/* <div className="Hero-image" /> */}
-          <img src={heroMobile} alt="" className="Hero-img--mobile" />
-          <img src={heroDesktop} alt="" className="Hero-img--desktop" />
+          <img
+            src={heroMobile}
+            alt="The Biscuit Bar: Biscuits. Tots. Taps."
+            className="Hero-img--mobile"
+          />
+          <img
+            src={heroDesktop}
+            alt="The Biscuit Bar: Biscuits. Tots. Taps."
+            className="Hero-img--desktop"
+          />
           <div className="Hero-container">
             <h2 className="Hero-slogan">Biscuits.&nbsp;Tots.&nbsp;Taps.</h2>
             <address className="Hero-address">
