@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import stock1 from './assets/stock1.jpg';
-import stock2 from './assets/stock2.jpg';
-import stock3 from './assets/stock3.jpg';
-import stock4 from './assets/stock4.jpg';
-import stock5 from './assets/stock5.jpg';
+import gallery1 from './assets/gallery-1.jpg';
+import gallery2 from './assets/gallery-2.jpg';
+import gallery3 from './assets/gallery-3.jpg';
+import gallery4 from './assets/gallery-4.jpg';
+import gallery5 from './assets/gallery-5.jpg';
 
 import './backgroundImage.css';
 
@@ -12,24 +12,24 @@ export default class Gallery extends Component {
     return (
       <div className="Gallery">
         <div
-          style={{ backgroundImage: stock1 }}
-          className="Gallery-stock Gallery-stock--1"
+          style={{ backgroundImage: gallery1 }}
+          className="Gallery-image Gallery-image--1"
         />
         <div
-          style={{ backgroundImage: stock2 }}
-          className="Gallery-stock Gallery-stock--2"
+          style={{ backgroundImage: gallery2 }}
+          className="Gallery-image Gallery-image--2"
         />
         <div
-          style={{ backgroundImage: stock3 }}
-          className="Gallery-stock Gallery-stock--3"
+          style={{ backgroundImage: gallery3 }}
+          className="Gallery-image Gallery-image--3"
         />
         <div
-          style={{ backgroundImage: stock4 }}
-          className="Gallery-stock Gallery-stock--4"
+          style={{ backgroundImage: gallery4 }}
+          className="Gallery-image Gallery-image--4"
         />
         <div
-          style={{ backgroundImage: stock5 }}
-          className="Gallery-stock Gallery-stock--5"
+          style={{ backgroundImage: gallery5 }}
+          className="Gallery-image Gallery-image--5"
         />
       </div>
     );
