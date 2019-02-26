@@ -33,3 +33,8 @@ kale_smoothie.ingredients.create(description: "large handful frozen pineapple ch
 kale_smoothie.ingredients.create(description: "medium-sized chunk ginger")
 kale_smoothie.ingredients.create(description: "1 tbsp cashew nuts")
 kale_smoothie.ingredients.create(description: "1 banana, optional")
+
+Page.create!(
+  name: "Home",
+  heading: "Biscuits.&nbsp;Tots.&nbsp;Taps."
+)

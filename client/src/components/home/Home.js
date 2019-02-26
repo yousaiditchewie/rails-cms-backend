@@ -9,7 +9,29 @@ import heroMobile from './assets/home-hero-mobile.jpg';
 import heroDesktop from './assets/home-hero.jpg';
 
 export default class Home extends Component {
+  state = {
+    heading: null
+  };
+
+  componentDidMount() {
+    this.getHeading();
+  }
+
+  fetch(endpoint) {
+    return window
+      .fetch(endpoint)
+      .then(response => response.json())
+      .catch(error => console.log(error));
+  }
+
+  getHeading() {
+    this.fetch('api/pages/1').then(page =>
+      this.setState({ heading: page.heading })
+    );
+  }
+
   render() {
+    const { heading } = this.state;
     return (
       <Fragment>
         <header id="hero" className="Hero">
@@ -24,7 +46,10 @@ export default class Home extends Component {
             className="Hero-img--desktop"
           />
           <div className="Hero-container">
-            <h2 className="Hero-slogan">Biscuits.&nbsp;Tots.&nbsp;Taps.</h2>
+            <h2
+              className="Hero-slogan"
+              dangerouslySetInnerHTML={{ __html: heading }}
+            />
             <address className="Hero-address">
               <a
                 href="https://goo.gl/maps/Yxg4QjgPbDJ2"

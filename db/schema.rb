@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_22_031111) do
+ActiveRecord::Schema.define(version: 2019_02_26_182233) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -43,11 +43,27 @@ ActiveRecord::Schema.define(version: 2018_05_22_031111) do
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
   end
 
+  create_table "cta", force: :cascade do |t|
+    t.string "callout"
+    t.string "cta"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "drinks", force: :cascade do |t|
     t.string "title"
     t.string "description"
     t.string "steps"
     t.string "source"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "homes", force: :cascade do |t|
+    t.string "heading"
+    t.string "street"
+    t.string "cityStateZip"
+    t.string "phone"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -58,6 +74,13 @@ ActiveRecord::Schema.define(version: 2018_05_22_031111) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["drink_id"], name: "index_ingredients_on_drink_id"
+  end
+
+  create_table "pages", force: :cascade do |t|
+    t.string "name"
+    t.string "heading"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
